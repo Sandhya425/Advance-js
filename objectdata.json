@@ -1,0 +1,22 @@
+{
+    "product":[
+        {
+            "productname": "derma",
+            "productbrand":"DERMA",
+            "productprice": 300
+           
+        },
+        {
+            "productname":" dotkey",
+            "productbrand": "DOT&KEY",
+            "productprice": 600
+        
+        },
+        {
+                "productname":"aqualogica",
+                "productbrand":"aqualogicaaa",
+                "productprice": 300
+               
+            }
+    ]
+}
