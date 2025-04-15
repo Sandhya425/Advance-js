@@ -1,0 +1,16 @@
+{
+  "product": [
+    {
+      "id": "1",
+      "productname": "derma",
+      "productbrand": "DERMA",
+      "productprice": 300
+    },
+    {
+      "id": "3c14",
+      "productname": "dove",
+      "productbrand": "DOVEE",
+      "productprice": "300"
+    }
+  ]
+}
