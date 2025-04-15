@@ -1,0 +1,36 @@
+.form{
+   border: 1px solid rgb(138, 136, 136);
+   width: 390px;
+   height: 420px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top:100px;
+   border-radius: 20px;
+   background-image: url("https://img.freepik.com/premium-photo/green-invitation-card-elegant-floral-wedding-card-wedding-floral-background_332133-5788.jpg");
+   /* box-shadow:; */
+   box-shadow: 1px 4px 5px rgb(113, 115, 117);
+}
+.form input{
+    margin-left: 20px;
+}
+ input{
+   
+    padding: 10px 170px 10px 10px;
+    margin: 7px;
+    border-radius: 10px;
+    border: 1px solid black;
+ }
+ button{
+    padding: 8px 20px 8px 20px;
+    margin-left: 140px;
+    margin-top: 7px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size:17px;
+
+ }
+ h1{
+    margin-left: 60px;
+    margin-top:30px;
+    font-size: 30px;
+ }

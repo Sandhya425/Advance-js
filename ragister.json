@@ -1,0 +1,27 @@
+{
+  "product": [
+    {
+      "id": "ea40",
+      "name": "Sandhya Rajput",
+      "email": "rajputsandhya425@gmail.com",
+      "number": "7722838473",
+      "address": "vijaynager ag46"
+    },
+    {
+      "id": "8425",
+      "name": "Sandhya Rajput",
+      "email": "rajputsandhya425@gmail.com",
+      "number": "7722838473",
+      "address": "vijaynager ag46",
+      "password": {}
+    },
+    {
+      "id": "b953",
+      "name": "Sandhya Rajput",
+      "email": "rajputsandhya425@gmail.com",
+      "number": "7722838473",
+      "address": "vijaynager ag46",
+      "password": "sandhya@7722"
+    }
+  ]
+}
