@@ -1,18 +1,6 @@
 {
   "product": [
     {
-      "id": "1",
-      "productname": "derma",
-      "productbrand": "DERMA",
-      "productprice": 300
-    },
-    {
-      "id": "2",
-      "productname": " dotkey",
-      "productbrand": "DOT&KEY",
-      "productprice": 600
-    },
-    {
       "id": "3ee2",
       "productname": "Aqua",
       "productbrand": "aqualogic",
