@@ -1,6 +1,6 @@
 async function df() {
     let obj={
-        "productname": "Aqua",
+            "productname": "Aqua",
             "productbrand":"aqualogic",
             "productprice": 400 
     }
@@ -29,7 +29,6 @@ async function f() {
     let data=await fetch('http://localhost:4000/product');
     let res=await data.json();
     
-
     let o=document.querySelector('#output')
     o.innerHTML=res.map(e=>`<div>${e.name}</div>
 <div>${e.email}</div>
@@ -38,4 +37,35 @@ async function f() {
 <div>${e.password}</div>
 <button onclick="del('${e.id}')"> remove</button>`).join(" ")
 }
+
+
+
+//update
+
+// function final (id){
+//     let name=document.querySelector("#name").value
+//     let email=document.querySelector("#email").value
+//     let number=document.querySelector("#number").value
+//     let address=document.querySelector("#address").value
+//     let password=document.querySelector("#password").value
+
+//     let obj={
+//         "name":name,
+//         "email":email,
+//         "number":number,
+//         "address":address,
+//         "password":password
+//     }
+//     fetch(`http://localhost:4000/product/${id}`,{
+//         method:"PUT",
+//         headres:{
+//             "content-type":"application/json",
+//         },
+//         body:JSON.stringify(obj)
+//     })
+// }
+
+
+
+
     
