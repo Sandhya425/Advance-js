@@ -1,0 +1,34 @@
+{
+  "register": [
+    {
+      "id": "1",
+      "name": "sanu",
+      "email": "sanu@123"
+    },
+    {
+      "id": "4",
+      "name": "san",
+      "email": "nu@123"
+    },
+    {
+      "id": "8",
+      "name": "snu",
+      "email": "u@123"
+    },
+    {
+      "id": "c562",
+      "name": "neha",
+      "email": "neha@123"
+    },
+    {
+      "id": "119b",
+      "name": "neha",
+      "email": "neha@123"
+    },
+    {
+      "id": "b215",
+      "name": "Sandhya Rajput",
+      "email": "rajputsandhya425@gmail.com"
+    }
+  ]
+}

@@ -48,6 +48,6 @@ async function f(){
 <div>${e.number}</div>
 <div>${e.address}</div>
 <div>${e.password}</div>
-<button onclick="del('${e.id}')">remove</button>
+ <button onclick="del('${e.id}')">remove</button>
 <button onclick="up('${e.id}')">update</button>`).join(" ")
 }

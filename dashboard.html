@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dashboard.css">
+</head>
+<body>
+    <aside class="aside">
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">course</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">review</a></li>
+            <li><a href="#">internship</a></li>
+        </ul>
+    </aside>
+    <h1 class="head">Admin dashboard</h1>
+    <button onclick="open1()">add course</button>
+    <form id="addform" onsubmit="f()">
+       <input type="text" placeholder="enter course name" id="cname">
+       <input type="text" placeholder="enter course price" id="cprice">
+       <input type="text" placeholder="enter trainer name" id="tname">
+       <input type="text" placeholder="enter course duration" id="cduration">
+       <input type="text" placeholder="enter course discount" id="cdiscount">
+       <button>add</button>
+    </form>
+    <script src="./dashboard.js"></script>
+</body>
+</html>

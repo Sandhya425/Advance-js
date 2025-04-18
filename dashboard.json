@@ -1,0 +1,12 @@
+{
+  "course": [
+    {
+      "id": "3f52",
+      "cname": "c",
+      "cprice": "3000",
+      "tname": "dr",
+      "cduration": "3 hours",
+      "cdiscount": "10%"
+    }
+  ]
+}

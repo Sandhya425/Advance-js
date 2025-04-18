@@ -11,6 +11,24 @@
       "productname": "Aqua",
       "productbrand": "aqualogic",
       "productprice": 400
+    },
+    {
+      "id": "aa95",
+      "productname": "Aqua",
+      "productbrand": "aqualogic",
+      "productprice": 400
+    },
+    {
+      "id": "ef06",
+      "productname": "Aqua",
+      "productbrand": "aqualogic",
+      "productprice": 400
+    },
+    {
+      "id": "ec3b",
+      "productname": "dove",
+      "productbrand": "dovegic",
+      "productprice": 200
     }
   ]
 }
