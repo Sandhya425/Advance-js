@@ -5,26 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <img id="im" src="https://img.freepik.com/premium-photo/happy-schoolgirl-around-15-years-old-holding-books-minimal-background-educational-concept_849688-5589.jpg">
     <aside class="aside">
         <ul>
-            <li><a href="#">home</a></li>
-            <li><a href="#">course</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">review</a></li>
-            <li><a href="#">internship</a></li>
+            <li ><a href="#"><i id="user"class="fa-solid fa-circle-user"></i></a></li>
+            <li id="s"><a href="#">Sandhya Rajput</a></li>
+ 
+             <!-- <i id="a"class="fa-solid fa-circle-user"></i>  -->
+            <li id="h"><a href="#">Home Page</a></li>
+            
+
+            <!-- <i class="fa-solid fa-circle-user"></i> -->
+            <li id="d"><a href="#">Courses</a></li>
+
+            <!-- <i class="fa-solid fa-circle-user"></i> -->
+            <li id="y"><a href="#">About Us</a></li>
+
+            <!-- <i class="fa-solid fa-circle-user"></i> -->
+            <li id="x"><a href="#">Reviews</a></li>
+
+            <!-- <i class="fa-solid fa-circle-user"></i> -->
+            <li id="z"><a href="#">Internship</a></li>
         </ul>
     </aside>
-    <h1 class="head">Admin dashboard</h1>
-    <button onclick="open1()">add course</button>
+    <h1 class="head">Admin Dashboard</h1>
+    <button id="click" onclick="open1()">Add course</button>
     <form id="addform" onsubmit="f()">
-       <input type="text" placeholder="enter course name" id="cname">
-       <input type="text" placeholder="enter course price" id="cprice">
-       <input type="text" placeholder="enter trainer name" id="tname">
-       <input type="text" placeholder="enter course duration" id="cduration">
-       <input type="text" placeholder="enter course discount" id="cdiscount">
-       <button>add</button>
+       <input type="text" placeholder="Enter course name" id="cname"><br>
+       <input type="text" placeholder="Enter course price" id="cprice"><br>
+       <input type="text" placeholder="Enter trainer name" id="tname"><br>
+       <input type="text" placeholder="Enter course duration" id="cduration"><br>
+       <input type="text" placeholder="Enter course discount" id="cdiscount"><br>
+       <button >Add</button>
     </form>
     <script src="./dashboard.js"></script>
 </body>

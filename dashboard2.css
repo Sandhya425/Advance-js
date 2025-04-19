@@ -1,0 +1,42 @@
+.fo input{
+   margin: 5px;
+   padding: 15px 150px 15px 5px;
+   font-size: 15px;
+   border-radius: 10px;
+   /* margin-top: 20px; */
+   background-image:url("https://wallpaperaccess.com/full/1980669.jpg") ;
+}
+.fo button{
+    padding: 7px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 5px 0px 5px 160px;
+    background-image: url("https://wallpaperaccess.com/full/1980669.jpg");
+    color: aliceblue;
+}
+.fo a{
+    margin: 5px 0px 5px 160px;
+    color: aliceblue;
+}
+.fo{
+    margin-left:550px;
+    margin-top: 150px;
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("https://th.bing.com/th/id/OIP.Z3xw5JkvShhJoks0zpZHxAHaEo?rs=1&pid=ImgDetMain");
+}
+#name{
+    /* margin-top: 30px; */
+    margin-left: 30px;
+}
+#email{
+    margin-left: 30px;
+}
+#word{
+    margin-left: 30px;
+}
+.fo h1{
+    margin-left: 100px;
+}
