@@ -10,14 +10,15 @@
     height: 100%;
 }
 .aside{
-    background-color:white;
+    background-color:rgb(75, 74, 74);
     width: 200px;
     float: left;
     height: 100vh;
     
+    
 }
 .aside ul li a{
-    color:rgb(74, 71, 71);
+    color:rgb(238, 233, 233);
     margin-left: 50px;
     padding-bottom: 50px;
     font-size: 20px;
@@ -30,7 +31,7 @@
 }
 .head{
     text-align: center;
-    color: aliceblue;
+    color: rgb(50, 50, 51);
     font-size: 40px;
 }
 #click{
@@ -98,4 +99,5 @@
    margin-bottom: 15px;
    margin-top:20px ;
    margin-left: 10px;
+   color: aliceblue;
 }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <aside class="aside">
+        <ul>
+            <li><a href="#"><i id="user"class="fa-solid fa-circle-user"></i></a></li>
+            <li id="s"><a href="#">Sandhya Rajput</a></li>
+            <li id="h"><a href="#">Home Page</a></li>
+            <li id="d"><a href="#">Courses</a></li>
+            <li id="y"><a href="#">About Us</a></li>
+            <li id="x"><a href="#">Reviews</a></li>
+            <li id="z"><a href="#">Internship</a></li>
+        </ul>
+
+    </aside>
+    <h1 class="head">Admin Dashboard</h1>
+    <button id="click" onclick="open1()">Add course</button>
+    <form id="addform" onsubmit="f()">
+        <input type="text" placeholder="Enter course name" id="cname"><br>
+        <input type="text" placeholder="Enter course price" id="cprice"><br>
+        <input type="text" placeholder="Enter trainer name" id="tname"><br>
+        <input type="text" placeholder="Enter course duration" id="cduration"><br>
+        <input type="text" placeholder="Enter course discount" id="cdiscount"><br>
+        <button >Add</button>
+     </form>
+     <script src="./dashboard.js"></script>
+    
+</body>
+</html>

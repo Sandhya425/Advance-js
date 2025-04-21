@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./ragisteration.css">
+    <!-- <link rel="stylesheet" href="./ragisteration.css"> -->
+    <link rel="stylesheet" href="./ragister.css">
 </head>
-<body>
-    <form class="from">
-    <div><h1>Registration Form</h1></div>
-    
-    <input type="text" id="name"placeholder="enter your name"><br>
+<body onload="f()">
+    <div id="form"></div>
+    <div id="output"></div>
+
+    <form class="from"onsubmit="kl()">
+     <div><h1>Registeration Form</h1></div>
+     <input type="text" id="name"placeholder="enter your name"><br>
      <input type="text"id="email"placeholder="enter your email"><br>
      <input type="text"id="number"placeholder="enter your number"><br>
      <input type="text"id="password"placeholder="enter your password"><br>
      <input type="text"id="address"placeholder="enter your address"><br>
-     <!-- <button> Login</button><br> -->
-     <a href="./dashboard2.html">Log in</a>
+     <button onclick="rl()">submit</button><br>
     </form>
-</body>
+    <script src="./ragister.js"></script>
+
+     <a href="./dashboard2.html">Log in</a>
+     <!-- window.location.href="./dashboard2.html" -->
 </html>
